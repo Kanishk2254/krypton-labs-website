@@ -8,6 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Force HTTPS redirect -->
+    <script>
+        if (location.protocol !== 'https:' && location.hostname !== 'localhost') {
+            location.replace('https:' + window.location.href.substring(window.location.protocol.length));
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -110,7 +117,7 @@
             </div>
             <div class="contact-card">
                 <h3>💬 Discord</h3>
-                <p>KryptonLabs#1234</p>
+                <p>https://discord.gg/fK3sAtnYAu</p>
             </div>
             <div class="contact-card">
                 <h3>🚀 Ready to Experience?</h3>
